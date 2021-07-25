@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Oxygen:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+#navbar{
+    background-color: grey;
+    padding: 4px 30px;
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    padding: 0px 6px;
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 14px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Oxygen', sans-serif;
+}
+#navbar li a:hover{
+    color: rgba(255, 255, 255, 0.568);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 20px;
+    font-size: 1.6rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+#logo img{
+    width: 45px;
+}
+
+/* Intro Section */
+#introSection{
+    background: center top / cover no-repeat url("/static/bg1.jpg");
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Otomanopee One', sans-serif;
+    padding-bottom: 40px;
+}
+#introSection div{
+    text-shadow: rgb(70, 65, 65) 3px 3px;
+}
+.small{
+    font-size: 2rem;
+    color: wheat;
+}
+
+/* Mission Section */
+#missionSection{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+}
+#missionSection h2{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.7rem;
+}
+#cards{
+    display: flex;
+}
+.cards{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30%;
+    height: 250px;
+    margin: 12px auto;
+    background-color: blanchedalmond;
+    box-shadow: rgb(54, 54, 54) 4px 4px;
+}
+.cards h3{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Oxygen', sans-serif;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.card-img{
+    height: 130px;
+    padding: 0 10px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+}
+
+/* Sponsor Section */
+#sponsorSection{
+    background-color: rgb(71, 255, 95);
+    height: 250px;
+}
+#sponsorSection h2{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.7rem;
+}
+#sponsor{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 20px auto;
+}
+#sponsor img{
+    height: 95%;
+    padding: 10px 20px;
+}
+
+/* Footer */
+#footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

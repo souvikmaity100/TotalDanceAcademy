@@ -1,0 +1,62 @@
+//- index.pug
+doctype html
+html
+  head
+    title Total Dance Acedamy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png", alt="logo")
+                | TDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection 
+        div Welcome to Total Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection 
+        h2 Our Mission 
+        div#cards
+            div.cards
+                h3 Dance Perfaction
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/d1.png", alt="card img 1")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia sapiente illo id consequatur eveniet laudantium.
+            div.cards
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/d2.png", alt="card img 1")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur odit est at quibusdam, soluta et inventore obcaecati.
+            div.cards
+                h3 Expert teaching 
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/d3.png", alt="card img 1")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia sapiente illo obcaecati.
+    
+
+    section#sponsorSection 
+        h2 Our sponsor 
+        div#sponsor
+            img(src="/static/img/logo1.png", alt="Sponsor Image")
+            img(src="/static/img/logo2.png", alt="Sponsor Image")
+            img(src="/static/img/logo3.png", alt="Sponsor Image")
+            img(src="/static/img/logo4.png", alt="Sponsor Image")
+    
+    footer#footer 
+        | &copy; 2021 | All rights reserved by TotalDanceAcedamy.com
+
+    script 
+        include ../static/index.js

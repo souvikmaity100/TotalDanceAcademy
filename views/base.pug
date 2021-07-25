@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Total Dance Acedamy
+    block scripts
+    block style 
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png", alt="logo")
+                | TDA
+            li #[a(href="/") Home]
+            li #[a(href="/#missionSection") About]
+            li #[a(href="#") Services]
+            li #[a(href="#") Class Info]
+            li #[a(href="/contact") Contact Us] 
+    block content
+    footer#footer 
+        | &copy; 2021 | All rights reserved by TotalDanceAcedamy.com
+    
